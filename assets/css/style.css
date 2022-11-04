@@ -297,6 +297,18 @@ section {
     padding-bottom: 120px;
     overflow: hidden
 }
+ .latinoamerica {
+    background-image: url(../background/Latinoamerica.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+ .separte {
+     background-image: url(../background/IMG-Soymedic.png);
+     background-position: center right;
+     background-size: 50%;
+     background-repeat: no-repeat;
+}
 
 @media only screen and (max-width: 991px) {
     section {
@@ -718,6 +730,9 @@ section {
 .flex {
     display: flex
 }
+.gap {
+    gap: 10px
+}
 
 @media only screen and (max-width: 767px) {
     section {
@@ -956,7 +971,10 @@ section {
 }
 
 .bg-theme {
-    background-color: #0070cd !important
+    background-color:       #EDFBFF !important
+}
+.bg-theme-dg {
+    background: linear-gradient(180deg, #EDFBFF 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .bg-gray {
@@ -2308,8 +2326,8 @@ label {
 }
 
 #footerParallax {
-    position: fixed;
-    z-index: -1;
+    /*position: fixed;*/
+    /*z-index: -1;*/
     left: 0;
     right: 0;
     bottom: 0
@@ -2348,6 +2366,11 @@ label {
     margin: 0 auto 15px;
     display: block;
     background-color: #eff8ff
+}
+
+.footer .widget-info-box .info-img img{
+    width: 70px;
+    height: 70px;
 }
 
 .footer .widget-info-box h4 {
