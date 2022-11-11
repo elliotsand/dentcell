@@ -306,7 +306,7 @@ section {
  .separte {
      background-image: url(../background/IMG-Soymedic.png);
      background-position: center right;
-     background-size: 50%;
+     background-size: 50% 100%;
      background-repeat: no-repeat;
 }
 
@@ -1456,9 +1456,9 @@ label {
     }
 
     .navbar .navbar-brand {
-        height: 80px;
-        line-height: 80px;
-        margin-left: 15px
+        /*height: 80px;*/
+        /*line-height: 80px;*/
+        /*margin-left: 15px*/
     }
 
     .navbar .navbar-brand .logo-dark {
@@ -1466,15 +1466,16 @@ label {
     }
 
     .navbar-toggler {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         position: relative;
         padding: 0;
         position: absolute;
         top: 32px;
         right: 15px;
         border: none;
-        cursor: pointer
+        cursor: pointer;
+        background: linear-gradient(90deg, #0089A9 0%, #1DB4E2 100%);
     }
 
     .navbar-toggler:focus {
@@ -1484,42 +1485,44 @@ label {
     .toogle-inner {
         top: 50%;
         display: block;
-        margin-top: -2px;
         position: absolute;
-        width: 30px;
-        height: 2px;
-        background-color: #444;
+        width: 37px;
+        margin: -2px 1px 0;
+        height: 6px;
+        background-color: #fff;
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
         -o-border-radius: 0;
-        border-radius: 0;
+        border-radius: 3px;
         transition-timing-function: ease;
         transition-duration: .15s;
-        transition-property: transform
+        transition-property: transform;
     }
 
     .toogle-inner:before, .toogle-inner:after {
         display: block;
         content: "";
         position: absolute;
-        width: 30px;
-        height: 2px;
-        background-color: #444;
+        width: 37px;
+        margin: auto;
+        bottom: -7px;
+        height: 6px;
+        background-color: #fff;
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
         -o-border-radius: 0;
-        border-radius: 0
+        border-radius: 3px
     }
 
     .toogle-inner:before {
-        top: -6px;
+        top: -29px;
         transition-timing-function: ease;
         transition-duration: .15s;
         transition-property: transform, opacity
     }
 
     .toogle-inner:after {
-        bottom: -6px;
+        bottom: -10px;
         transition-timing-function: ease;
         transition-duration: .15s;
         transition-property: transform
@@ -1669,7 +1672,9 @@ label {
 
 @media only screen and (max-width: 767px) {
     .hero {
-        background-image: none !important
+        /*background-image: none !important*/
+        padding: 250px 0 0 ;
+        background-size: 110%;
     }
 
     .hero .hero-action .btn {
