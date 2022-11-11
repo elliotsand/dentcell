@@ -297,23 +297,36 @@ section {
     padding-bottom: 120px;
     overflow: hidden
 }
- .latinoamerica {
+
+.latinoamerica {
     background-image: url(../background/Latinoamerica.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
 }
- .separte {
-     background-image: url(../background/IMG-Soymedic.png);
-     background-position: center right;
-     background-size: 50% 100%;
-     background-repeat: no-repeat;
+
+.separte {
+    background-image: url(../background/IMG-Soymedic.png);
+    background-position: center right;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 991px) {
     section {
         padding-top: 90px;
         padding-bottom: 90px
+    }
+
+    .latinoamerica {
+        background-position: top;
+        padding-top: 50vh;
+    }
+
+    .separte {
+        background-position: top;
+        padding-top: 50vh;
+        background-size: contain;
     }
 }
 
@@ -730,6 +743,7 @@ section {
 .flex {
     display: flex
 }
+
 .gap {
     gap: 10px
 }
@@ -971,8 +985,9 @@ section {
 }
 
 .bg-theme {
-    background-color:       #EDFBFF !important
+    background-color: #EDFBFF !important
 }
+
 .bg-theme-dg {
     background: linear-gradient(180deg, #EDFBFF 0%, rgba(255, 255, 255, 0) 100%);
 }
@@ -1293,7 +1308,7 @@ label {
     display: block;
     position: relative;
     padding-left: 6px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     cursor: pointer;
     font-size: 14px
 }
@@ -1431,7 +1446,7 @@ label {
     text-transform: capitalize;
     font-weight: 400;
     line-height: 140px;
-    color: #999;
+    color: #0089A9;
     padding: 0;
     letter-spacing: -.2px
 }
@@ -1673,7 +1688,7 @@ label {
 @media only screen and (max-width: 767px) {
     .hero {
         /*background-image: none !important*/
-        padding: 250px 0 0 ;
+        padding: 250px 0 0;
         background-size: 110%;
     }
 
@@ -1869,13 +1884,13 @@ label {
 }
 
 .feature-panel .feature-content ul {
-    padding: 0;
-    margin: 24px 0 0;
-    list-style: none
+    padding: 0 25px;
+    margin: 0 0;
+    list-style-type: disc;
 }
 
 .feature-panel .feature-content ul li {
-    padding-left: 26px;
+    padding-left: 0px;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
@@ -1883,16 +1898,16 @@ label {
     margin-bottom: 15px
 }
 
-.feature-panel .feature-content ul li:before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    content: "";
-    font-family: fontawesome;
-    font-size: 14px;
-    line-height: 26px;
-    color: #0070cd
-}
+/*.feature-panel .feature-content ul li:before {*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    content: ".";*/
+/*    font-family: fontawesome;*/
+/*    font-size: 14px;*/
+/*    line-height: 26px;*/
+/*    color: #0070cd*/
+/*}*/
 
 .feature-center {
     text-align: center
@@ -1950,7 +1965,7 @@ label {
     /*padding: 20px 0 0;*/
 }
 
-.feature-3 .feature-panel .feature-img img{
+.feature-3 .feature-panel .feature-img img {
     width: 80px;
     height: 80px;
 }
@@ -2373,7 +2388,7 @@ label {
     background-color: #eff8ff
 }
 
-.footer .widget-info-box .info-img img{
+.footer .widget-info-box .info-img img {
     width: 70px;
     height: 70px;
 }
