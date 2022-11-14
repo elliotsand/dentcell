@@ -34,7 +34,7 @@ body {
     font-family: poppins, sans-serif;
     font-size: 14px;
     font-weight: 400;
-    color: #999;
+    color: #696969;
     line-height: 1.5;
     margin: 0
 }
@@ -123,7 +123,7 @@ button.btn {
 }
 
 p {
-    color: #999;
+    color: #696969;
     font-size: 13px;
     font-weight: 400;
     line-height: 22px
@@ -1259,19 +1259,19 @@ label {
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #999
+    color: #696969
 }
 
 .form-control:-moz-placeholder {
-    color: #999
+    color: #696969
 }
 
 .form-control::-moz-placeholder {
-    color: #999
+    color: #696969
 }
 
 .form-control:-ms-input-placeholder {
-    color: #999
+    color: #696969
 }
 
 .select-form {
@@ -1397,10 +1397,10 @@ label {
     height: 140px;
     z-index: 100;
     transition: .3s;
+    background-color: rgba(255, 255, 255, 0.50);
 }
 
 .header-transparent {
-    background-color: transparent;
     position: absolute;
     top: 0;
     left: 0;
@@ -2275,7 +2275,7 @@ label {
 
 .pricing-panel .pricing-heading p .period {
     padding-left: 15px;
-    color: #999;
+    color: #696969;
     font-size: 22px;
     font-weight: 400;
     text-transform: none
@@ -2415,7 +2415,7 @@ label {
 }
 
 .footer .footer-bar hr {
-    border-top-color: #e0e0e0;
+    border-top-color: #C4E2EA;
     margin: 0
 }
 
@@ -2424,7 +2424,7 @@ label {
 }
 
 .footer .footer-bottom .footer-copyright {
-    color: #999;
+    color: #0089A9;
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
@@ -2437,7 +2437,7 @@ label {
 
 .footer .footer-bottom .footer-social a {
     font-size: 14px;
-    color: #999;
+    color: #696969;
     margin-right: 20px;
     display: inline-block
 }
@@ -2549,7 +2549,7 @@ label {
 }
 
 .member .member-info h6 a {
-    color: #999
+    color: #696969
 }
 
 .member .member-info h6 a i {
