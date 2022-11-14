@@ -1636,9 +1636,9 @@ label {
 
 .hero .hero-headline {
     color: #0089A9;
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 500;
-    line-height: 75px;
+    line-height: 60px;
     margin-bottom: 35px
 }
 
@@ -1891,9 +1891,9 @@ label {
 
 .feature-panel .feature-content ul li {
     padding-left: 0px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
     position: relative;
     margin-bottom: 15px
 }

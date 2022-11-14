@@ -34,7 +34,8 @@
                          alt="Kolaso Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-                        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"
+                        onclick="myFunction()">
                     <span class="toogle-inner"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarContent">
@@ -361,11 +362,12 @@
                                 Recibir mayor información sobre nuestros paquetes.
                             </p>
                             <ul>
-                                <li>Capacitaciones internacionales</li>
-                                <li>Certificados de capacitaciones de medicina regenerativa.</li>
-                                <li>Honorarios profesionales por la colecta.</li>
-                                <li>Follow up your medical condition.</li>
-                                <li>Precios promocionales para los clientes afiliados a su consultorio.</li>
+                                <li class="color-heading">Capacitaciones internacionales</li>
+                                <li class="color-heading">Certificados de capacitaciones de medicina regenerativa.</li>
+                                <li class="color-heading">Honorarios profesionales por la colecta.</li>
+                                <li class="color-heading">Precios promocionales para los clientes afiliados a su
+                                    consultorio.
+                                </li>
                             </ul>
                             <p class="mb-30"> ¡Déjanos tus datos y te escribiremos comunicaremos contigo en la
                                 brevedad posible!</p>
@@ -467,24 +469,25 @@
                 <div class="row widget-boxes text-center">
                     <div class="col-12 col-md-4 col-lg-4">
                         <div class="widget-info-box">
-                            <div class="info-img">
-                                <img src="assets/background/Ico-Whatsapp.png" alt="phone">
-                            </div>
-                            <h4>+51 987654321</h4>
+                            <a href="https://wa.me/51987654321?text=Hola%20deseo%20informaci%C3%B3n">
+                                <div class="info-img">
+                                    <img src="assets/background/Ico-Whatsapp.png" alt="phone">
+                                </div>
+                                <h4>+51 987654321</h4>
+                            </a>
                         </div>
-
                     </div>
 
                     <div class="col-12 col-md-4 col-lg-4">
                         <div class="widget-info-box">
-                            <div class="info-img">
-                                <img src="assets/background/Ico-Mail.png" alt="phone">
-                            </div>
-                            <h4>hola@dentcell.com</h4>
+                            <a href="mailto:hola@dentcell.com">
+                                <div class="info-img">
+                                    <img src="assets/background/Ico-Mail.png" alt="phone">
+                                </div>
+                                <h4>hola@dentcell.com</h4>
+                            </a>
                         </div>
-
                     </div>
-
                     <div class="col-12 col-md-4 col-lg-4">
                         <div class="widget-info-box">
                             <div class="info-img">
@@ -492,13 +495,9 @@
                             </div>
                             <h4>Av. Benavides</h4>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
 
         <div class="footer-bar">
@@ -517,22 +516,22 @@
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-6">
                         <div class="footer-copyright">
-                            <span>© served.</span>
+                            <span>@dentcell  </span>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-6 col-lg-6">
                         <div class="footer-social">
-                            <a class="facebook" href="#">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a class="twitter" href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a class="dribbble" href="#">
-                                <i class="fab fa-dribbble"></i>
-                            </a>
-                            <a class="instagram" href="#">
+                            <!--                            <a class="facebook" href="#">-->
+                            <!--                                <i class="fab fa-facebook"></i>-->
+                            <!--                            </a>-->
+                            <!--                            <a class="twitter" href="#">-->
+                            <!--                                <i class="fab fa-twitter"></i>-->
+                            <!--                            </a>-->
+                            <!--                            <a class="dribbble" href="#">-->
+                            <!--                                <i class="fab fa-dribbble"></i>-->
+                            <!--                            </a>-->
+                            <a class="instagram" href="https://www.instagram.com/dentcell.peru/">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </div>
@@ -569,7 +568,13 @@
             slidesToShow: 1,
             slidesToScroll: 1
         });
+
     });
+
+    function myFunction() {
+        var element = document.getElementById("navbarContent");
+        element.classList.remove("collapse");
+    }
 </script>
 
 
