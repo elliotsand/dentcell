@@ -24,528 +24,522 @@
 </head>
 <body class="body-scroll">
 
-<div id="wrapperParallax" class="wrapper clearfix">
+<!--<div id="wrapperParallax" class="wrapper clearfix">-->
 
-    <header id="navbar-spy" class="header header-1 header-transparent header-fixed">
-        <nav id="primary-menu" class="navbar navbar-expand-lg navbar-dark">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img class="logo logo-dark" src="assets/background/logo.png"
-                         alt="Kolaso Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-                        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"
-                        onclick="myFunction()">
-                    <span class="toogle-inner"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="active">
-                            <a data-scroll="scrollTo" href="#speciality">CÉLULAS MADRE</a>
-                        </li>
-                        <li>
-                            <a data-scroll="scrollTo" href="#patients">SOY MÉDICO</a>
-                        </li>
-                        <li>
-                            <a data-scroll="scrollTo" href="#doctors">NOSOTROS</a>
-                        </li>
-                        <li>
-                            <a data-scroll="scrollTo" href="#consultation">CONTACTO</a>
-                        </li>
-                    </ul>
-                </div>
-
+<header id="navbar-spy" class="header header-1 header-transparent ">
+    <nav id="primary-menu" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo logo-dark" src="assets/background/logo.png"
+                     alt="Kolaso Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"
+                    onclick="openMenu()">
+                <span class="toogle-inner"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active">
+                        <a onclick="closeMenu()" data-scroll="scrollTo" href="#speciality">CÉLULAS MADRE</a>
+                    </li>
+                    <li>
+                        <a onclick="closeMenu()" data-scroll="scrollTo" href="#patients">SOY MÉDICO</a>
+                    </li>
+                    <li>
+                        <a onclick="closeMenu()" data-scroll="scrollTo" href="#doctors">NOSOTROS</a>
+                    </li>
+                    <li>
+                        <a onclick="closeMenu()" data-scroll="scrollTo" href="#consultation">CONTACTO</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
-    <div class="carrusel">
-        <section id="hero" class="section hero bg-section"
-                 style="background-image: url('assets/background/INDEX.jpg');">
 
-            <div class="container ">
-                <div class="row row-content ">
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <div class="hero-headline">Conserva los dientes de leche de tu hijo y protege la salud de tu
-                            familia
-                        </div>
-                        <div class="hero-bio">
-                            Dentro de sus dientes se encuentran unas Células especiales utilizadas para distintos
-                            tratamientos
-                        </div>
-                        <div class="hero-action">
-                            <a href="#consultation" class="btn btn--primary" data-scroll="scrollTo">Más información</a>
-                        </div>
+        </div>
+    </nav>
+</header>
+<div class="carrusel" id="hero">
+    <section  class="section hero bg-section"
+             style="background-image: url('assets/background/INDEX.jpg');">
+
+        <div class="container ">
+            <div class="row row-content ">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="hero-headline">Conserva los dientes de leche de tu hijo y protege la salud de tu
+                        familia
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6"></div>
-                </div>
-            </div>
-
-
-        </section>
-        <section id="hero" class="section hero bg-section"
-                 style="background-image: url('assets/background/hero2.jpg');">
-
-            <div class="container ">
-                <div class="row row-content ">
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <div class="hero-headline">Almacena las Células Madre de tu hijo en un Banco especializado</div>
-                        <div class="hero-bio">Permitirá a tu familia poder utilizarlas en el momento que lo necesiten
-                        </div>
-                        <div class="hero-action">
-                            <a href="#consultation" class="btn btn--primary" data-scroll="scrollTo">Más información</a>
-                        </div>
+                    <div class="hero-bio">
+                        Dentro de sus dientes se encuentran unas Células especiales utilizadas para distintos
+                        tratamientos
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6"></div>
-                </div>
-            </div>
-
-
-        </section>
-        <section id="hero" class="section hero bg-section"
-                 style="background-image: url('assets/background/INDEX3.jpg');">
-
-            <div class="container ">
-                <div class="row row-content ">
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <div class="hero-headline">¿Te gustaría ser parte de nuestra red de profesionales?</div>
-                        <div class="hero-bio">Forma parte de nuestra red de profesionales y obtén diversos beneficios
-                        </div>
-                        <div class="hero-action">
-                            <a href="#consultation" class="btn btn--primary" data-scroll="scrollTo">Más información</a>
-                        </div>
+                    <div class="hero-action">
+                        <a href="#consultation" class="btn btn--primary" data-scroll="scrollTo">Más información</a>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6"></div>
                 </div>
+                <div class="col-12 col-md-6 col-lg-6"></div>
             </div>
+        </div>
 
 
-        </section>
-        <section id="hero" class="section hero bg-section"
-                 style="background-image: url('assets/background/INDEX4.jpg');">
+    </section>
+    <section class="section hero bg-section"
+             style="background-image: url('assets/background/hero2.jpg');">
 
-            <div class="container ">
-                <div class="row row-content ">
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <div class="hero-headline">Somos parte del Grupo CryoHoldco</div>
-                        <div class="hero-bio">Holding de Bancos de Células Madre #1 en América Latina.
-                            +250 000 muestras criopreservadas
-                            Más de 17 años de experiencia en criopreservación de Células Madre
-                            Sexto Banco de Células Madre más grande a nivel mundial.
-                        </div>
-                        <div class="hero-action">
-                            <a href="#consultation" class="btn btn--primary" data-scroll="scrollTo">Más información</a>
-                        </div>
+        <div class="container ">
+            <div class="row row-content ">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="hero-headline">Almacena las Células Madre de tu hijo en un Banco especializado</div>
+                    <div class="hero-bio">Permitirá a tu familia poder utilizarlas en el momento que lo necesiten
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6"></div>
+                    <div class="hero-action">
+                        <a href="#consultation" class="btn btn--primary" data-scroll="scrollTo">Más información</a>
+                    </div>
                 </div>
+                <div class="col-12 col-md-6 col-lg-6"></div>
+            </div>
+        </div>
+
+
+    </section>
+    <section  class="section hero bg-section"
+             style="background-image: url('assets/background/INDEX3.jpg');">
+
+        <div class="container ">
+            <div class="row row-content ">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="hero-headline">¿Te gustaría ser parte de nuestra red de profesionales?</div>
+                    <div class="hero-bio">Forma parte de nuestra red de profesionales y obtén diversos beneficios
+                    </div>
+                    <div class="hero-action">
+                        <a href="#consultation" class="btn btn--primary" data-scroll="scrollTo">Más información</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6"></div>
+            </div>
+        </div>
+
+
+    </section>
+    <section  class="section hero bg-section"
+             style="background-image: url('assets/background/INDEX4.jpg');">
+
+        <div class="container ">
+            <div class="row row-content ">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="hero-headline">Somos parte del Grupo CryoHoldco</div>
+                    <div class="hero-bio">Holding de Bancos de Células Madre #1 en América Latina.
+                        +250 000 muestras criopreservadas
+                        Más de 17 años de experiencia en criopreservación de Células Madre
+                        Sexto Banco de Células Madre más grande a nivel mundial.
+                    </div>
+                    <div class="hero-action">
+                        <a href="#consultation" class="btn btn--primary" data-scroll="scrollTo">Más información</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6"></div>
+            </div>
+        </div>
+
+
+    </section>
+
+</div>
+<section id="speciality" class="section feature feature-3 bg-theme-dg pb-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="heading heading-1 text-center">
+                    <h2 class="heading-title">Células Madre</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-12 col-md-4 col-lg-4">
+                <div class="feature-panel">
+                    <div class="feature-img">
+                        <img src="assets/background/Ico-Cell.png" alt="target">
+                    </div>
+                    <div class="feature-content">
+                        <h3>Células Madre</h3>
+                        <p>¡En los dientes de leche se encuentran Células Madre utilizadas para tratar distintas
+                            enfermedades!</p>
+                    </div>
+                </div>
+
             </div>
 
 
-        </section>
+            <div class="col-12 col-md-4 col-lg-4">
+                <div class="feature-panel">
+                    <div class="feature-img">
+
+                        <img src="assets/background/Ico-Dent.png" alt="target">
+                    </div>
+                    <div class="feature-content">
+                        <h3>¿Dónde se encuentran?</h3>
+                        <p>En la pulpa dental de los dientes de leche o de las llamadas muelas del juicio
+                            encontramos Células Madre Mesenquimales.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-md-4 col-lg-4">
+                <div class="feature-panel">
+                    <div class="feature-img">
+                        <img src="assets/background/Ico-Mesen.png" alt="target">
+                    </div>
+                    <div class="feature-content">
+                        <h3>Emergency Medicine</h3>
+                        <p>Our clinic is always ready for urgent care such as Fractures, Infections, Bites, Minor
+                            Burns, Ear Aches, etc..</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-md-4 col-lg-4">
+                <div class="feature-panel">
+                    <div class="feature-img">
+                        <img src="assets/background/Ico-Enfer.png" alt="target">
+                    </div>
+                    <div class="feature-content">
+                        <h3>¿Qué enfermedades se peuden tratar?</h3>
+                        <p>Esclerosis Múltiple, Parálisis Cerebral, Enfermedad de Crohn, Regeneración de Tejidos,
+                            Adhesiones Intrauterinas, Quemaduras, Insuficiencia Cardiaca, EICH </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-md-4 col-lg-4">
+                <div class="feature-panel">
+                    <div class="feature-img">
+                        <img src="assets/background/Ico-Fam.png" alt="target">
+                    </div>
+                    <div class="feature-content">
+                        <h3>¿Quiénes pueden usar la colecta?</h3>
+                        <p>Las Células Madre Mesenquimales tienen compatibilidad con todo el grupo familiar: Dueño
+                            de la muestra, hermanos(a), padres, abuelos.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-md-4 col-lg-4">
+                <div class="feature-panel">
+                    <div class="feature-img">
+                        <img src="assets/background/Ico-Proceso.png" alt="target">
+                    </div>
+                    <div class="feature-content">
+                        <h3>¿Cuál es el proceso de estracción?</h3>
+                        <p>Obtención del diente,
+                            Procesamiento de la pieza y
+                            Criopreservación</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 
-    <section id="speciality" class="section feature feature-3 bg-theme-dg pb-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-12">
-                    <div class="heading heading-1 text-center">
-                        <h2 class="heading-title">Células Madre</h2>
+</section>
+<section id="patients" class="section feature feature-left separte">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <div class="heading heading-1 mb-50 mt-30">
+                    <h2 class="heading-title">¡Sé parte de nuestra red de profesionales!</h2>
+                    <p class="heading-desc"> Forma parte de nuestra red de profesionales y obtén:</p>
+
+                    <ul>
+                        <li>Capacitaciones internacionales</li>
+                        <li>Certificados de capacitaciones de medicina regenerativa.</li>
+                        <li>Honorarios profesionales por la colecta.</li>
+                        <li>Precios promocionales para los clientes afiliados a su consultorio.</li>
+                    </ul>
+                    <p class="heading-desc">¡Nosotros nos encargamos de todo!</p>
+                    <br>
+                    <div class="hero-action">
+                        <a href="#consultation" class="btn btn--primary" data-scroll="scrollTo">Más información</a>
                     </div>
                 </div>
+
             </div>
-            <div class="row">
 
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="feature-panel">
-                        <div class="feature-img">
-                            <img src="assets/background/Ico-Cell.png" alt="target">
-                        </div>
-                        <div class="feature-content">
-                            <h3>Células Madre</h3>
-                            <p>¡En los dientes de leche se encuentran Células Madre utilizadas para tratar distintas
-                                enfermedades!</p>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="feature-panel">
-                        <div class="feature-img">
-
-                            <img src="assets/background/Ico-Dent.png" alt="target">
-                        </div>
-                        <div class="feature-content">
-                            <h3>¿Dónde se encuentran?</h3>
-                            <p>En la pulpa dental de los dientes de leche o de las llamadas muelas del juicio
-                                encontramos Células Madre Mesenquimales.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="feature-panel">
-                        <div class="feature-img">
-                            <img src="assets/background/Ico-Mesen.png" alt="target">
-                        </div>
-                        <div class="feature-content">
-                            <h3>Emergency Medicine</h3>
-                            <p>Our clinic is always ready for urgent care such as Fractures, Infections, Bites, Minor
-                                Burns, Ear Aches, etc..</p>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="feature-panel">
-                        <div class="feature-img">
-                            <img src="assets/background/Ico-Enfer.png" alt="target">
-                        </div>
-                        <div class="feature-content">
-                            <h3>¿Qué enfermedades se peuden tratar?</h3>
-                            <p>Esclerosis Múltiple, Parálisis Cerebral, Enfermedad de Crohn, Regeneración de Tejidos,
-                                Adhesiones Intrauterinas, Quemaduras, Insuficiencia Cardiaca, EICH </p>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="feature-panel">
-                        <div class="feature-img">
-                            <img src="assets/background/Ico-Fam.png" alt="target">
-                        </div>
-                        <div class="feature-content">
-                            <h3>¿Quiénes pueden usar la colecta?</h3>
-                            <p>Las Células Madre Mesenquimales tienen compatibilidad con todo el grupo familiar: Dueño
-                                de la muestra, hermanos(a), padres, abuelos.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="feature-panel">
-                        <div class="feature-img">
-                            <img src="assets/background/Ico-Proceso.png" alt="target">
-                        </div>
-                        <div class="feature-content">
-                            <h3>¿Cuál es el proceso de estracción?</h3>
-                            <p>Obtención del diente,
-                                Procesamiento de la pieza y
-                                Criopreservación</p>
-                        </div>
-                    </div>
-
-                </div>
-
+            <div class="col-12 col-md-6 col-lg-6">
+                <!--                    <img class="img-fluid pull-right"-->
+                <!--                         src="assets/background/IMG-Soymedic.png" alt="about">-->
             </div>
 
         </div>
 
-    </section>
-    <section id="patients" class="section feature feature-left separte">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="heading heading-1 mb-50 mt-30">
-                        <h2 class="heading-title">¡Sé parte de nuestra red de profesionales!</h2>
-                        <p class="heading-desc"> Forma parte de nuestra red de profesionales y obtén:</p>
+    </div>
 
-                        <ul>
-                            <li>Capacitaciones internacionales</li>
-                            <li>Certificados de capacitaciones de medicina regenerativa.</li>
-                            <li>Honorarios profesionales por la colecta.</li>
-                            <li>Precios promocionales para los clientes afiliados a su consultorio.</li>
-                        </ul>
-                        <p class="heading-desc">¡Nosotros nos encargamos de todo!</p>
-                        <br>
-                        <div class="hero-action">
-                            <a href="#consultation" class="btn btn--primary" data-scroll="scrollTo">Más información</a>
-                        </div>
+</section>
+<section id="doctors" class="section feature feature-left bg-theme">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="heading heading-1 text-center">
+                    <h2 class="heading-title">Nosotros</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <img class="img-fluid pull-right"
+                     src="assets/background/Group%2069.png" alt="about">
+            </div>
+            <div class="col-12 col-md-6 col-lg-6" style="display: flex; align-self: center;">
+                <div class="heading heading-1 mb-50 mt-30">
+                    <p class="heading-desc">Pertenecemos al Grupo CryoHoldco, uno de los 3 Bancos de Células Madre
+                        más grandes del mundo.
+
+                        En DentCell somo expertos en la Criopreservación de las Células Madre de las muelas del
+                        juicio y dientes de leche.
+
+                        Contamos con un equipo médico altamente capacitado. Mantenemos estándares internacionales en
+                        todo el procedimiento.
+
+                        Como Grupo estamos comprometidos en contribuir mundialmente a la investigación celular
+                        permitiendo que las familias puedan almacenar Células Madre y tengan una opción de
+                        tratamiento frente a diversas enfermedades en el futuro.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<section id="feature3" class="section feature feature-left bg-white latinoamerica">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <div class="heading heading-1 mb-50 mt-30">
+                    <h2 class="heading-title">¡Contamos con presencia en diversos países de Latinoamérica!</h2>
+                    <p class="heading-desc">Trasladamos su muestra sin costo a cualquier parte del mundo para
+                        tratamiento.</p>
+                    <br>
+                    <div class="hero-action">
+                        <a href="#consultation" class="btn btn--primary" data-scroll="scrollTo">Más información</a>
                     </div>
-
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-6">
-                    <!--                    <img class="img-fluid pull-right"-->
-                    <!--                         src="assets/background/IMG-Soymedic.png" alt="about">-->
-                </div>
+            </div>
 
+            <div class="col-12 col-md-6 col-lg-6">
+                <!--                    <img class="img-fluid pull-right"-->
+                <!--                         src="assets/background/Latinoamerica.png" alt="about">-->
             </div>
 
         </div>
 
-    </section>
+    </div>
 
-    <section id="doctors" class="section feature feature-left bg-theme">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-12">
-                    <div class="heading heading-1 text-center">
-                        <h2 class="heading-title">Nosotros</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <img class="img-fluid pull-right"
-                         src="assets/background/Group%2069.png" alt="about">
-                </div>
-                <div class="col-12 col-md-6 col-lg-6" style="display: flex; align-self: center;">
-                    <div class="heading heading-1 mb-50 mt-30">
-                        <p class="heading-desc">Pertenecemos al Grupo CryoHoldco, uno de los 3 Bancos de Células Madre
-                            más grandes del mundo.
-
-                            En DentCell somo expertos en la Criopreservación de las Células Madre de las muelas del
-                            juicio y dientes de leche.
-
-                            Contamos con un equipo médico altamente capacitado. Mantenemos estándares internacionales en
-                            todo el procedimiento.
-
-                            Como Grupo estamos comprometidos en contribuir mundialmente a la investigación celular
-                            permitiendo que las familias puedan almacenar Células Madre y tengan una opción de
-                            tratamiento frente a diversas enfermedades en el futuro.
+</section>
+<section id="consultation" class="section feature feature-2 bg-theme">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <div class="feature-panel">
+                    <div class="feature-content">
+                        <h3>Contáctanos</h3>
+                        <p class="mb-30">Forma parte de nuestra red de profesionales.
+                            Recibir mayor información sobre nuestros paquetes.
                         </p>
-
+                        <ul>
+                            <li class="color-heading">Capacitaciones internacionales</li>
+                            <li class="color-heading">Certificados de capacitaciones de medicina regenerativa.</li>
+                            <li class="color-heading">Honorarios profesionales por la colecta.</li>
+                            <li class="color-heading">Precios promocionales para los clientes afiliados a su
+                                consultorio.
+                            </li>
+                        </ul>
+                        <p class="mb-30"> ¡Déjanos tus datos y te escribiremos comunicaremos contigo en la
+                            brevedad posible!</p>
                     </div>
                 </div>
 
             </div>
+
+            <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
+                <div class="form-wrapper">
+                    <div class="heading">
+                        <h3 class="heading-title">Completa el formulario</h3>
+                    </div>
+
+                    <form method="post" action="assets/php/contact.php" class="contactForm mb-0"
+                          novalidate="novalidate">
+                        <div id="result" class="contact-result"></div>
+                        <div class="flex gap">
+                            <div class="form-group">
+                                <label for="name">Nombres*</label>
+                                <input type="text" class="form-control" name="name" id="name" required="required"
+                                       aria-required="true">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Apellidos*</label>
+                                <input type="text" class="form-control" name="lastname" id="lastname"
+                                       required="required"
+                                       aria-required="true">
+                            </div>
+                        </div>
+                        <div class="flex gap">
+                            <div class="form-group">
+                                <label for="name">Celular*</label>
+                                <input type="text" class="form-control" name="phone" id="phone" required="required"
+                                       aria-required="true">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Email*</label>
+                                <input type="text" class="form-control" name="email" id="email" required="required"
+                                       aria-required="true">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="user">Soy Medico Odontologo*</label>
+                            <div class="form-group">
+                                <div class="form-check form-check-inline form-radio">
+                                    <label class="label-radio">
+                                        <input class="form-check-input" type="radio" name="user" id="user2"
+                                               value="New" checked="checked">
+                                        <span class="radio-indicator"></span>
+                                    </label>
+                                    <label class="form-check-label" for="user">
+                                        si
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline form-radio">
+                                    <label class="label-radio">
+                                        <input class="form-check-input" type="radio" name="user" id="user"
+                                               value="Existing">
+                                        <span class="radio-indicator"></span>
+                                    </label>
+                                    <label class="form-check-label" for="user">
+                                        no
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Mensaje</label>
+                            <textarea type="text" class="form-control" name="message" id="message"
+                                      required="required"
+                                      aria-required="true"></textarea>
+                        </div>
+
+                        <div class="agreement">Al darle click a “Enviar” usted acepta los términos y condiciones
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="ENVIAR" name="submit"
+                                   class="btn btn--primary btn--block">
+                        </div>
+
+                        <div class="agreement">Al darle click a “Enviar” usted acepta los términos y condiciones
+                        </div>
+                    </form>
+                </div>
+            </div>
+
         </div>
 
-    </section>
-    <section id="feature3" class="section feature feature-left bg-white latinoamerica">
+    </div>
+
+</section>
+<footer id="footerParallax" class="footer">
+    <div class="footer-top">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="heading heading-1 mb-50 mt-30">
-                        <h2 class="heading-title">¡Contamos con presencia en diversos países de Latinoamérica!</h2>
-                        <p class="heading-desc">Trasladamos su muestra sin costo a cualquier parte del mundo para
-                            tratamiento.</p>
-                        <br>
-                        <div class="hero-action">
-                            <a href="#consultation" class="btn btn--primary" data-scroll="scrollTo">Más información</a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-6">
-                    <!--                    <img class="img-fluid pull-right"-->
-                    <!--                         src="assets/background/Latinoamerica.png" alt="about">-->
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <section id="consultation" class="section feature feature-2 bg-theme">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="feature-panel">
-                        <div class="feature-content">
-                            <h3>Contáctanos</h3>
-                            <p class="mb-30">Forma parte de nuestra red de profesionales.
-                                Recibir mayor información sobre nuestros paquetes.
-                            </p>
-                            <ul>
-                                <li class="color-heading">Capacitaciones internacionales</li>
-                                <li class="color-heading">Certificados de capacitaciones de medicina regenerativa.</li>
-                                <li class="color-heading">Honorarios profesionales por la colecta.</li>
-                                <li class="color-heading">Precios promocionales para los clientes afiliados a su
-                                    consultorio.
-                                </li>
-                            </ul>
-                            <p class="mb-30"> ¡Déjanos tus datos y te escribiremos comunicaremos contigo en la
-                                brevedad posible!</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
-                    <div class="form-wrapper">
-                        <div class="heading">
-                            <h3 class="heading-title">Completa el formulario</h3>
-                        </div>
-
-                        <form method="post" action="assets/php/contact.php" class="contactForm mb-0"
-                              novalidate="novalidate">
-                            <div id="result" class="contact-result"></div>
-                            <div class="flex gap">
-                                <div class="form-group">
-                                    <label for="name">Nombres*</label>
-                                    <input type="text" class="form-control" name="name" id="name" required="required"
-                                           aria-required="true">
-                                </div>
-                                <div class="form-group">
-                                    <label for="name">Apellidos*</label>
-                                    <input type="text" class="form-control" name="lastname" id="lastname"
-                                           required="required"
-                                           aria-required="true">
-                                </div>
-                            </div>
-                            <div class="flex gap">
-                                <div class="form-group">
-                                    <label for="name">Celular*</label>
-                                    <input type="text" class="form-control" name="phone" id="phone" required="required"
-                                           aria-required="true">
-                                </div>
-                                <div class="form-group">
-                                    <label for="name">Email*</label>
-                                    <input type="text" class="form-control" name="email" id="email" required="required"
-                                           aria-required="true">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="user">Soy Medico Odontologo*</label>
-                                <div class="form-group">
-                                    <div class="form-check form-check-inline form-radio">
-                                        <label class="label-radio">
-                                            <input class="form-check-input" type="radio" name="user" id="user2"
-                                                   value="New" checked="checked">
-                                            <span class="radio-indicator"></span>
-                                        </label>
-                                        <label class="form-check-label" for="user">
-                                            si
-                                        </label>
-                                    </div>
-                                    <div class="form-check form-check-inline form-radio">
-                                        <label class="label-radio">
-                                            <input class="form-check-input" type="radio" name="user" id="user"
-                                                   value="Existing">
-                                            <span class="radio-indicator"></span>
-                                        </label>
-                                        <label class="form-check-label" for="user">
-                                            no
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="name">Mensaje</label>
-                                <textarea type="text" class="form-control" name="message" id="message"
-                                          required="required"
-                                          aria-required="true"></textarea>
-                            </div>
-
-                            <div class="agreement">Al darle click a “Enviar” usted acepta los términos y condiciones
-                            </div>
-                            <div class="form-group">
-                                <input type="submit" value="ENVIAR" name="submit"
-                                       class="btn btn--primary btn--block">
-                            </div>
-
-                            <div class="agreement">Al darle click a “Enviar” usted acepta los términos y condiciones
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <footer id="footerParallax" class="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row widget-boxes text-center">
-                    <div class="col-12 col-md-4 col-lg-4">
-                        <div class="widget-info-box">
-                            <a href="https://wa.me/51987654321?text=Hola%20deseo%20informaci%C3%B3n">
-                                <div class="info-img">
-                                    <img src="assets/background/Ico-Whatsapp.png" alt="phone">
-                                </div>
-                                <h4>+51 987654321</h4>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-4 col-lg-4">
-                        <div class="widget-info-box">
-                            <a href="mailto:hola@dentcell.com">
-                                <div class="info-img">
-                                    <img src="assets/background/Ico-Mail.png" alt="phone">
-                                </div>
-                                <h4>hola@dentcell.com</h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 col-lg-4">
-                        <div class="widget-info-box">
+            <div class="row widget-boxes text-center">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="widget-info-box">
+                        <a href="https://wa.me/51987654321?text=%F0%9F%91%8B%F0%9F%8F%BC%C2%A1Hola%20Equipo%20Dentcell%20Per%C3%BA!%20%20%C2%A1Me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n!%20%20%C2%A1Gracias!%F0%9F%A6%B7">
                             <div class="info-img">
-                                <img src="assets/background/Ico-Direcc.png" alt="phone">
+                                <img src="assets/background/Ico-Whatsapp.png" alt="phone">
                             </div>
-                            <h4>Av. Benavides</h4>
+                            <h4>+51 987654321</h4>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="widget-info-box">
+                        <a href="mailto:hola@dentcell.com">
+                            <div class="info-img">
+                                <img src="assets/background/Ico-Mail.png" alt="phone">
+                            </div>
+                            <h4>hola@dentcell.com</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="widget-info-box">
+                        <div class="info-img">
+                            <img src="assets/background/Ico-Direcc.png" alt="phone">
                         </div>
+                        <h4>Av. Benavides</h4>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="footer-bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <hr>
+    <div class="footer-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="footer-copyright">
+                        <span>@dentcell  </span>
                     </div>
                 </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="footer-social">
+                        <!--                            <a class="facebook" href="#">-->
+                        <!--                                <i class="fab fa-facebook"></i>-->
+                        <!--                            </a>-->
+                        <!--                            <a class="twitter" href="#">-->
+                        <!--                                <i class="fab fa-twitter"></i>-->
+                        <!--                            </a>-->
+                        <!--                            <a class="dribbble" href="#">-->
+                        <!--                                <i class="fab fa-dribbble"></i>-->
+                        <!--                            </a>-->
+                        <a class="instagram" href="https://www.instagram.com/dentcell.peru/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
             </div>
 
         </div>
 
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <div class="footer-copyright">
-                            <span>@dentcell  </span>
-                        </div>
-                    </div>
+    </div>
 
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <div class="footer-social">
-                            <!--                            <a class="facebook" href="#">-->
-                            <!--                                <i class="fab fa-facebook"></i>-->
-                            <!--                            </a>-->
-                            <!--                            <a class="twitter" href="#">-->
-                            <!--                                <i class="fab fa-twitter"></i>-->
-                            <!--                            </a>-->
-                            <!--                            <a class="dribbble" href="#">-->
-                            <!--                                <i class="fab fa-dribbble"></i>-->
-                            <!--                            </a>-->
-                            <a class="instagram" href="https://www.instagram.com/dentcell.peru/">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </div>
-                    </div>
+</footer>
 
-                </div>
-
-            </div>
-
-        </div>
-
-    </footer>
-
-</div>
+<!--</div>-->
 
 
 <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
@@ -557,6 +551,17 @@
 
 <!--<script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-89540131-1"></script>-->
 <script type="text/javascript">
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 600) {
+            $(".header").addClass("header-color");
+            console.log("open")
+        } else {
+            $(".header").removeClass("header-color");
+            console.log("close")
+        }
+    });
     $(document).on('ready', function () {
         $(".carrusel").slick({
             dots: false,
@@ -571,9 +576,14 @@
 
     });
 
-    function myFunction() {
+    function openMenu() {
         var element = document.getElementById("navbarContent");
         element.classList.remove("collapse");
+    }
+
+    function closeMenu() {
+        var element = document.getElementById("navbarContent");
+        element.classList.add("collapse");
     }
 </script>
 

@@ -1394,7 +1394,9 @@ label {
 }
 
 .header {
-    height: 140px
+    height: 140px;
+    z-index: 100;
+    transition: .3s;
 }
 
 .header-transparent {
@@ -1403,6 +1405,11 @@ label {
     top: 0;
     left: 0;
     width: 100%
+}
+
+.header-color {
+    position: fixed;
+    background-color: #fff;
 }
 
 .header .navbar-collapse {
@@ -1444,7 +1451,7 @@ label {
 .navbar-nav > li > a {
     font-size: 16px;
     text-transform: capitalize;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 140px;
     color: #0089A9;
     padding: 0;
@@ -1715,7 +1722,9 @@ label {
 
 @media only screen and (max-width: 991px) {
     .hero {
-        padding-top: 240px
+        padding-top: 40vh;
+        background-size: 160%;
+        background-position: top center;
     }
 
     .hero .row-content {
