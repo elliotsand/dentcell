@@ -1568,13 +1568,16 @@ label {
     }
 
     .toggler-active .toogle-inner:after {
+        bottom: -6px;
         -webkit-transform: translate3d(0, -6px, 0) rotate(-90deg);
         -moz-transform: translate3d(0, -6px, 0) rotate(-90deg);
         -ms-transform: translate3d(0, -6px, 0) rotate(-90deg);
         -o-transform: translate3d(0, -6px, 0) rotate(-90deg);
         transform: translate3d(0, -6px, 0) rotate(-90deg)
     }
+    .closemenu{
 
+    }
     .navbar-nav {
         width: 100%;
         padding: 40px 15px
@@ -1583,14 +1586,18 @@ label {
     .navbar-nav > li {
         float: none;
         text-align: center;
-        height: auto !important;
+        height: 20vh;
+        padding: 8vh;
         margin-right: 0
     }
 
     .container > .navbar-collapse {
         width: 100%;
         background-color: #fff;
-        margin-right: 0
+        margin-right: 0;
+        height: 100vh;
+        position: fixed;
+        top: 0;
     }
 
     .navbar-nav > li.pull-left {
@@ -1733,12 +1740,12 @@ label {
 
     .hero .hero-headline {
         padding-top: 0;
-        font-size: 28px;
+        font-size: 2rem;
         line-height: 33px
     }
 
     .hero .hero-bio {
-        font-size: 15px;
+        font-size: 1rem;
         line-height: 26px
     }
 
