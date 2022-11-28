@@ -31,7 +31,7 @@ html {
 
 body {
     background-color: #fff;
-    font-family: poppins, sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #696969;
@@ -299,7 +299,7 @@ section {
 }
 
 .latinoamerica {
-    background-image: url(../background/Latinoamerica.png);
+    background-image: url(../background/Presencia.jpg);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1575,9 +1575,11 @@ label {
         -o-transform: translate3d(0, -6px, 0) rotate(-90deg);
         transform: translate3d(0, -6px, 0) rotate(-90deg)
     }
-    .closemenu{
+
+    .closemenu {
 
     }
+
     .navbar-nav {
         width: 100%;
         padding: 40px 15px
@@ -1741,7 +1743,8 @@ label {
     .hero .hero-headline {
         padding-top: 0;
         font-size: 2rem;
-        line-height: 33px
+        line-height: 35px;
+        font-weight: bold;
     }
 
     .hero .hero-bio {
@@ -1992,7 +1995,7 @@ label {
 }
 
 .feature-3 .feature-panel .feature-content p {
-    font-size: 14px
+    font-size: 16px
 }
 
 .feature-left .feature-panel {
@@ -2414,7 +2417,6 @@ label {
     font-weight: 500;
     line-height: 28px;
     margin-bottom: 10px;
-    text-transform: capitalize
 }
 
 .footer .widget-info-box p {
